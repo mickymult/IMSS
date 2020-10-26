@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run imss_performance_cmpp.py
