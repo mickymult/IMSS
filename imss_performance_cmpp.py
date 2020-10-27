@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import pickle
-import seaborn as sns
+#import seaborn as sns
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -25,12 +25,12 @@ from sklearn.model_selection import train_test_split
 
 data = pd.read_csv("C:/Users/user/pyproj/ship_sorter/imss_performance.csv")
 data = np.array(data)
-df = pd.read_csv("C:/Users/user/pyproj/ship_sorter/imss_performance.csv")
+#df = pd.read_csv("C:/Users/user/pyproj/ship_sorter/imss_performance.csv")
 
-plt.figure(figsize=(50,25))
-fig, ax = plt.subplots()
-sns.heatmap(df.corr(),annot =True)
-st.pyplot(fig)
+#plt.figure(figsize=(50,25))
+#fig, ax = plt.subplots()
+#sns.heatmap(df.corr(),annot =True)
+#st.pyplot(fig)
 
 
 X = data[:, :-1]
