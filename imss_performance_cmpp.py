@@ -23,7 +23,7 @@ from sklearn import linear_model
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv("C:/Users/user/pyproj/ship_sorter/imss_performance.csv")
+data = pd.read_csv("imss_performance.csv")
 data = np.array(data)
 #df = pd.read_csv("C:/Users/user/pyproj/ship_sorter/imss_performance.csv")
 
